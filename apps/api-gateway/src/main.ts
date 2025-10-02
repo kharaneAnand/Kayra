@@ -3,7 +3,6 @@ import cors from 'cors';
 import { createProxyMiddleware } from 'http-proxy-middleware';
 import morgan from 'morgan';
 import rateLimit from 'express-rate-limit';
-import swaggerUi from 'swagger-ui-express';
 import axios from 'axios';
 import cookieparser from 'cookie-parser';
 import { error } from 'console';
