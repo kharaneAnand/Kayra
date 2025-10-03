@@ -26,7 +26,7 @@ export class NotFoundError extends AppError {
 }
 
 // Validation error
-export class ValidationError extends AppError {
+export class validationError extends AppError {
     constructor(message = 'Validation error', details?: any) {
         super(message, 400, true, details);
     }
